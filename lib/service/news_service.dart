@@ -5,7 +5,7 @@ import 'package:flutter_news_app/model/source_model.dart';
 
 class NewsService {
   final Dio dio = Dio();
-  final apiKey = "a168ec3fb5eb4aaa9b39d99a8d67eb80";
+  final apiKey = "<API_KEY>";
   final String baseURL = 'https://newsapi.org/v2';
 
   Future<Either<String, List<NewsModel>>> getBreakingNews() async {
